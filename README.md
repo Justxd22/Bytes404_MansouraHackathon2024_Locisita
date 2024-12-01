@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# :D GDG 24
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## DB
+```sh
+Atlas atlas-o8kaa1-shard-0 [primary] loca> db.sessions.find()
+[
+  {
+    _id: ObjectId('674c75c0e6844ec626ac8356'),
+    sessionID: '305b2626-47cc-4ff7-8772-b568d2032edc',
+    email: 'xd@me.me',
+    role: 'user',
+    date: ISODate('2024-12-01T14:42:08.250Z')
+  }
+]
+Atlas atlas-o8kaa1-shard-0 [primary] loca> db.users.find()
+[
+  {
+    _id: ObjectId('674c75b8e6844ec626ac8355'),
+    email: 'xd@me.me',
+    password: '$2b$10$mEsUBwI5h2PtTRaLMfo7M.E0jhwBzFgvrvSUZHV9f1zpymHs0Zs4C',
+    F_name: 'xd',
+    L_name: 'qq',
+    city: 'cairo',
+    age: '21',
+    role: 'user',
+    created_at: ISODate('2024-12-01T14:42:00.162Z')
+  }
+]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Authors
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Noor Amjad - [GitHub](https://github.com/Justxd22) / [Twitter](https://twitter.com/_xd222) / [LinkedIn](https://www.linkedin.com/in/noor-amjad-xd)
+- 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
+Copyright (C) 2024
+Licensed under the GPLv3 License
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# TO:DO 
+- Brainstorm IDEA
+- Presentaion 
+- Video
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# ROLES
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Busniess
+    + Write Models
+    + Find Numbers
+    + CAC
+
+- Technical 
+    + Graphic
+    + Presentation
+    + Videograpghy 
+    + Documenting
+    + Find new features
+
+- Dev (2 people)
+    + App/Web dev 
+    + DevOps
+    + Automation/Deploying
+    + Cloud Setup
+
+- Testing & Offloading
+    + Test code
+    + Find Bugs & assign to dev
+    + Manage presentation
+    + Handle side tasks
+
+
+
+# IDEAS
+- Health 
+    + Remote doctors
+
+        With increasing Oversaturated Medical fields Doctors can't find a job
+        [APP] allows doctors to work with patient provideing remote care GLOBALLY
+        patients in rural areas using low-bandwidth video calls and a symptom checker.
+    
+
+- Industry
+    + Carbon Foot [web]
+        Get certified For reducing your carbon foot Join Globaly companies in reducing the global warming problem using our techinacal on-site consultation
+        - tutorials to reduce plastic waste
+        - Tutorials on recycling etc
+
+
+- Community Services [app]
+    + Disaster Response Coordination
+        first mins in critical accident/ Disaster are very imp in saving lifes
+        Send sos signals and get nearby volunteers, NGOs, and government agencies during emergencies
+
+    + cars company request our service ==> $$$
+
+    + Accessibility Response Coordination
+        Find local nearby volunteers to help 
+        Map with qualified places for Accs ppl
+
+    + places request our service ==> $$$
+
+    + Voluenter Service Request
+    + Send Emergency Room Request to nearby Hostpitals 
+
+
+
+- tools:
+    + Frameworks:
+        - Flutter
+        - Android Studio (kotlin)
+
+    + API(s):
+        - Google maps (get raw data)
+        - Google maps Location
+        - Ministry of health Verfiy API (if avaiable)
+
+    + Tools:
+        - Sockets (chatting)
+        - AI certifcate Review
+
+- Requirments For security:
+    + Paitent
+        - Has a medical Certifacte from Ministry of health
+    + Volunter
+        - Shared in a previous Voulentiring Event
+        - ID + Photo for verfication 
+
+
+- Problems
+    + Real Accident or fake
+    + Disabled people will never go out without company
+    + Disabled people can ask google for Disabled people friendly places

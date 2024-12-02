@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { getAllUsers, isAdmin } from "@/app/models/User";
+import {  getAllUsers, isAdmin } from '../../../components/models/User';
 
 export default async function handler(
   req: NextApiRequest,

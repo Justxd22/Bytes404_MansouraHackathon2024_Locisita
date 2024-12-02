@@ -1,8 +1,23 @@
-# :D GDG 24
+# Bytes 404 :D GDG 24
 
+## LIVE
 
+## Presentation
+[Here](https://www.canva.com/design/DAGYIV1SXE0/oym_81WdJ1DSwzT1-AX6ug/view?utm_content=DAGYIV1SXE0&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
-## DB
+## Screenshots
+![alt text](DEMO/ss6.png)
+![alt text](DEMO/ss4.png)
+![alt text](DEMO/ss5.png)
+![alt text](DEMO/ss3.png)
+![alt text](DEMO/ss7.png)
+![alt text](DEMO/ss8.png)
+![alt text](DEMO/ss9.png)
+![alt text](DEMO/ss10.png)
+![alt text](DEMO/ss11.png)
+
+## DB MODEL
+
 ```sh
 Atlas atlas-o8kaa1-shard-0 [primary] loca> db.sessions.find()
 [
@@ -33,7 +48,10 @@ Atlas atlas-o8kaa1-shard-0 [primary] loca> db.users.find()
 ## Authors
 
 - Noor Amjad - [GitHub](https://github.com/Justxd22) / [Twitter](https://twitter.com/_xd222) / [LinkedIn](https://www.linkedin.com/in/noor-amjad-xd)
-- 
+- Wagdy Adel
+- Eman Khaled
+- Eman Magdy
+- Engy Mohammed
 
 ## License
 
@@ -73,66 +91,3 @@ Licensed under the GPLv3 License
     + Find Bugs & assign to dev
     + Manage presentation
     + Handle side tasks
-
-
-
-# IDEAS
-- Health 
-    + Remote doctors
-
-        With increasing Oversaturated Medical fields Doctors can't find a job
-        [APP] allows doctors to work with patient provideing remote care GLOBALLY
-        patients in rural areas using low-bandwidth video calls and a symptom checker.
-    
-
-- Industry
-    + Carbon Foot [web]
-        Get certified For reducing your carbon foot Join Globaly companies in reducing the global warming problem using our techinacal on-site consultation
-        - tutorials to reduce plastic waste
-        - Tutorials on recycling etc
-
-
-- Community Services [app]
-    + Disaster Response Coordination
-        first mins in critical accident/ Disaster are very imp in saving lifes
-        Send sos signals and get nearby volunteers, NGOs, and government agencies during emergencies
-
-    + cars company request our service ==> $$$
-
-    + Accessibility Response Coordination
-        Find local nearby volunteers to help 
-        Map with qualified places for Accs ppl
-
-    + places request our service ==> $$$
-
-    + Voluenter Service Request
-    + Send Emergency Room Request to nearby Hostpitals 
-
-
-
-- tools:
-    + Frameworks:
-        - Flutter
-        - Android Studio (kotlin)
-
-    + API(s):
-        - Google maps (get raw data)
-        - Google maps Location
-        - Ministry of health Verfiy API (if avaiable)
-
-    + Tools:
-        - Sockets (chatting)
-        - AI certifcate Review
-
-- Requirments For security:
-    + Paitent
-        - Has a medical Certifacte from Ministry of health
-    + Volunter
-        - Shared in a previous Voulentiring Event
-        - ID + Photo for verfication 
-
-
-- Problems
-    + Real Accident or fake
-    + Disabled people will never go out without company
-    + Disabled people can ask google for Disabled people friendly places

@@ -119,22 +119,13 @@ const CheckoutPage = () => {
                 <h3 className="block__title">Payment method</h3>
                 <ul className="round-options round-options--three">
                   <li className="round-item">
-                    <img src="/images/logos/paypal.png" alt="Paypal" />
+                    <img src="/images/instapay.png" />
                   </li>
                   <li className="round-item">
-                    <img src="/images/logos/visa.png" alt="Paypal" />
+                    <img src="/images/vcash.png" />
                   </li>
                   <li className="round-item">
-                    <img src="/images/logos/mastercard.png" alt="Paypal" />
-                  </li>
-                  <li className="round-item">
-                    <img src="/images/logos/maestro.png" alt="Paypal" />
-                  </li>
-                  <li className="round-item">
-                    <img src="/images/logos/discover.png" alt="Paypal" />
-                  </li>
-                  <li className="round-item">
-                    <img src="/images/logos/ideal-logo.svg" alt="Paypal" />
+                    <img src="/images/cod.png" />
                   </li>
                 </ul>
               </div>
@@ -143,20 +134,8 @@ const CheckoutPage = () => {
                 <h3 className="block__title">Delivery method</h3>
                 <ul className="round-options round-options--two">
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/inpost.svg" alt="Paypal" />
+                    <img src="/images/bosta_en.png" />
                     <p>20.00 egp</p>
-                  </li>
-                  <li className="round-item round-item--bg">
-                    <img src="/images/logos/dpd.svg" alt="Paypal" />
-                    <p>12.00 egp</p>
-                  </li>
-                  <li className="round-item round-item--bg">
-                    <img src="/images/logos/dhl.svg" alt="Paypal" />
-                    <p>15.00 egp</p>
-                  </li>
-                  <li className="round-item round-item--bg">
-                    <img src="/images/logos/maestro.png" alt="Paypal" />
-                    <p>10.00 egp</p>
                   </li>
                 </ul>
               </div>

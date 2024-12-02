@@ -1,0 +1,43 @@
+.logoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .logoContainer:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .logoImage {
+    max-height: 100px;
+    max-width: 150px;
+    object-fit: contain;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .logoGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logoGrid {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  }
